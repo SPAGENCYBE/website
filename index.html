@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uw Reclamebureau | Stickers, Ontwerp & Drukkerij</title>
+    <style>
+        /* Basis Instellingen */
+        :root {
+            --primary-color: #2c3e50; /* Donkerblauw/grijs - zakelijk */
+            --accent-color: #e67e22;  /* Oranje - voor actie/stickers */
+            --light-bg: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+        }
+
+        header {
+            background: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        h1 { margin: 0; color: var(--primary-color); font-size: 2.5rem; }
+        h2 { color: var(--primary-color); border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+
+        /* Diensten Sectie */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+
+        /* Info Sectie */
+        .info-block {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        /* Contact Lijst */
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-list li {
+            margin-bottom: 1rem;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .contact-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        /* Responsive aanpassing */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>[NAAM RECLAMEBUREAU]</h1>
+        <p>Digitale Drukkerij • Stickers • Grafisch Ontwerp</p>
+    </div>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>Onze Expertise</h2>
+        <p>Wij combineren creativiteit met vakmanschap. Vanuit onze digitale drukkerij realiseren wij al uw visuele uitingen met oog voor detail.</p>
+        
+        <div class="services">
+            <div class="card">
+                <h3>Stickers op Maat</h3>
+                <p>Wij produceren stickers in alle vormen en maten. Van kleine promotiestickers tot grote raamfolies en voertuigbelettering. Weerbestendig en van hoge kwaliteit.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Digitaal Ontwerp</h3>
+                <p>Nog geen ontwerp? Geen probleem. Wij vertalen uw ideeën naar een professioneel digitaal bestand, klaar voor drukwerk of online gebruik.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Digitale Drukkerij</h3>
+                <p>Snel drukwerk nodig? Wij drukken posters, flyers en visitekaartjes in kleine en grote oplages met de scherpte van digitale precisie.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-block">
+        <h2>Over ons & Werkwijze</h2>
+        <p>Bij ons vindt u geen ingewikkelde webshops of bestelmodules. Wij geloven in persoonlijk contact en maatwerk. Alles wat wij maken is uniek en afgestemd op uw specifieke wensen.</p>
+        <p>Onze focus ligt op <strong>kwaliteit boven kwantiteit</strong>. Of het nu gaat om één enkele sticker of een complete huisstijl, wij zorgen dat het resultaat staat als een huis.</p>
+    </section>
+
+    <section>
+        <h2>Contactinformatie</h2>
+        <p>Wilt u meer weten over onze mogelijkheden of een prijsindicatie ontvangen? Neem vrijblijvend contact met ons op.</p>
+        <ul class="contact-list">
+            <li><strong>Adres:</strong> [Straatnaam 123, Postcode Plaats]</li>
+            <li><strong>E-mail:</strong> [info@uwdomeinnaam.nl]</li>
+            <li><strong>Telefoon:</strong> [012 - 345 67 89]</li>
+            <li><strong>Openingstijden:</strong> Maandag t/m vrijdag: 09:00 - 17:00</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2026 [Naam Reclamebureau] - Alle rechten voorbehouden.
+</footer>
+
+</body>
+</html>
